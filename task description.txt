@@ -1,0 +1,31 @@
+
+The task that was sent:
+
+mplement a simple e-commerce solution that provides the following features:
+
+1- Admin user can create/update/delete product.
+
+2- Customer user can add/remove products to his/her shopping cart.
+
+3- Provide a pricing module that responsible for calculating the final price of the product by considering the following rules:
+    - Adding a fixed tax percentage 10%.
+    - Handle seasonality pricing, by adding 15% to the product price in the first two months of the year.
+    - Handle multiple pricing currency (EGP, USD)
+
+4- Consider that the product has different types as the following:
+    4.1- Configurable products with color.
+    4.2- Configurable products with size.
+    4.3- Simple product without configurations.
+
+Entities:
+1- User: attributes (id, first name, last name, role)
+2- product: attributes (id, name, description, price, qty)
+3- shopping cart: attributes (product item, total amount)
+
+Note: do not map each entity to a single class, maybe some entities need to have more than one class.
+
+
+
+what I have completed:
+
+Points 1 and 4 mainly
